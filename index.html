@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>CatPhotoApp</h2>
+    <main>
+      <h3>Cat Photos</h3>
+      <p><a href="#" target="_blank">Click here</a> to view more cat photos.</p>
+      <a href="#" target="_blank"><img src="cat.jpg" alt="A cat with sunglasses"></a>    
+      <h3>Cat lists</h3>
+      <div class="lists">
+        <p>Things cats <em>love</em>:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <!--code = 307-->
+        <img src="lasagna.jpg" alt="Lasagna">
+        <p>Things cats <strong>hate</strong>:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+      <img src="cats.jpg" alt="Other cats">
+      <form action="/submit-cat-photo" target="_blank">
+        <label for="indoor">
+          <input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor
+        </label><br>
+        <label for="outdoor">
+          <input type="radio" name="indoor-outdoor"> Outdoor
+        </label><br><br>
+
+        <label for="loving">
+          <input id="loving" type="checkbox" name="personality" checked> Loving
+        </label> <br>
+
+        <label for="lazy">
+          <input id="lazy" type="checkbox" name="personality"> Lazy
+        </label> <br>
+
+        <label for="energetic">
+          <input id="energetic" type="checkbox" name="personality"> energetic
+        </label> <br><br>
+
+        <input id="outdoor" type="text" placeholder="Cat colour" required>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
