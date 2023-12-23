@@ -140,3 +140,78 @@ footer {
 footer .container {
     font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    nav ul li {
+        float: none;
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 1rem;
+    }
+
+    nav ul li ul {
+        position: static;
+        background-color: #333;
+        box-shadow: none;
+    }
+
+    nav ul li ul li {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 2rem 0;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+
+    .project {
+        margin-bottom: 1.5rem;
+    }
+
+    .project h3 {
+        font-size: 1.5rem;
+    }
+
+    .project img {
+        border-radius: 0.3rem;
+    }
+
+    section#contact {
+        padding: 2rem 0;
+    }
+
+    section#contact p {
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    section#contact a {
+        padding: 0.75rem 1rem;
+    }
+
+    footer .container {
+        font-size: 0.8rem;
+    }
+}
