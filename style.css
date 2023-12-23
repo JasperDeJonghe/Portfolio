@@ -70,6 +70,18 @@ header {
     text-align: center;
 }
 
+header h1, header p {
+    transition: transform 0.3s;
+}
+
+header:hover h1 {
+    transform: scale(1.1);
+}
+
+header:hover p {
+    transform: scale(1.05);
+}
+
 header h1 {
     margin: 0;
     font-size: 2rem;
@@ -144,6 +156,7 @@ footer {
 footer .container {
     font-size: 0.8rem;
 }
+
 
 @media only screen and (max-width: 768px) {
     .container {
